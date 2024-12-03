@@ -11,12 +11,12 @@ function Footer() {
     <div className="flex flex-wrap -m-4">
       <div className="p-4 lg:w-1/3">
         <div className=" bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-          <h2 className="tracking-widest text-3xl title-font font-bold text-white tex mb-1">
+          <p className="tracking-widest text-3xl title-font font-bold text-white tex mb-1">
             Whitepace
-          </h2>
-          <h1 className="title-font sm:text-2xl text-xl font-medium  mb-3">
+          </p>
+          <p className="title-font sm:text-2xl text-xl font-medium  mb-3">
             
-          </h1>
+          </p>
           <p className="leading-relaxed mb-3 text-white">
             Whitepace was created for the new ways we live and work.
             We make beautifully designed around the world
@@ -42,12 +42,12 @@ function Footer() {
       </div>
       <div className="p-4 lg:w-1/3">
         <div className="  bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-          <h2 className="tracking-widest text-xl title-font font-medium text-white mb-1">
+          <p className="tracking-widest text-xl title-font font-medium text-white mb-1">
             Products
-          </h2>
-          <h1 className="title-font sm:text-2xl text-xl font-medium text-orange-200 mb-3">
+          </p>
+          <p className="title-font sm:text-2xl text-xl font-medium text-orange-200 mb-3">
             Overview
-          </h1>
+          </p>
           <p className="leading-relaxed mb-3 text-white text-xl">
             
             Pricing
@@ -71,12 +71,12 @@ function Footer() {
       </div>
       <div className="p-4 lg:w-1/3">
         <div className=" bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-          <h2 className="tracking-widest  title-font font-medium text-white text-xl mb-1">
+          <p className="tracking-widest  title-font font-medium text-white text-xl mb-1">
             Company
-          </h2>
-          <h1 className="title-font sm:text-xl text-xl font-medium text-white mb-3">
+          </p>
+          <p className="title-font sm:text-xl text-xl font-medium text-white mb-3">
             About us
-          </h1>
+          </p>
           <p className="leading-relaxed mb-3 text-white text-xl">
             
             Careers
@@ -92,9 +92,9 @@ function Footer() {
           <h2 className="tracking-widest text-2xl title-font font-medium text-white mb-1">
             Try it Today
           </h2>
-          <h1 className="title-font sm:text-sm text-xl font-medium text-white mb-3 mt-5">
+          <p className="title-font sm:text-sm text-xl font-medium text-white mb-3 mt-5">
             Get started for free. Add your whole team as you need grow
-          </h1>
+          </p>
           <p className="leading-relaxed mb-3">
             
             <button className='bg-blue-400 px-8 py-4 rounded-lg text-white text-2xl mt-10'>Star today</button>
@@ -104,24 +104,24 @@ function Footer() {
              </div>
           <div className="p-4 lg:w-1/3">
         <div className="  bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-          <h2 className="tracking-widest text-xl title-font font-medium text-white mb-1">
+          <p className="tracking-widest text-xl title-font font-medium text-white mb-1">
             English
-          </h2>
-          <h1 className="title-font sm:text-md text-lg  text-white mb-3">
+          </p>
+          <p className="title-font sm:text-md text-lg  text-white mb-3">
             Terms & privacy
-          </h1>
+          </p>
           <p className="leading-relaxed mb-3 text-white text-xl">
             
             Security
           </p>
-          <a className="text-white text-xl inline-flex items-center">
+          <p className="text-white text-xl inline-flex items-center">
             Status
            
            
-          </a>
-          <h1 className="title-font sm:text-md text-xl font-medium text-white mb-3">
+          </p>
+          <p className="title-font sm:text-md text-xl font-medium text-white mb-3">
             2021 Whitepace LLC.
-          </h1>
+          </p>
          <div className='flex gap-2 ml-28 border-t-white'>
          <Image src={FB}alt='FB'width={30}height={30} />
          <Image src={TW}alt='TW'width={30}height={30}/>
