@@ -26,7 +26,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className="p-4 lg:w-1/3">
+            <div className="p-4 lg:w-1/3  mx-auto">
               <div className="  bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                 <p className="tracking-widest text-xl title-font font-medium text-white mb-1">
                   Products
@@ -61,9 +61,9 @@ function Footer() {
                   Media kitS
                 </a>
               </div>
-              <div className="p-4 lg:w-1/3">
-                <div className=" bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-                  <h2 className="tracking-widest text-2xl title-font font-medium text-white mb-1">
+              <div className="p-4 lg:w-1/3 flex justify-center items-center mx-auto ">
+                <div className=" bg-opacity-75  px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                  <h2 className="tracking-widest  text-2xl title-font font-medium text-white mb-1">
                     Try it Today
                   </h2>
                   <p className="title-font sm:text-sm text-xl font-medium text-white mb-3 mt-5">
