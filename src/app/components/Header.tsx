@@ -3,16 +3,16 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>
+    <div className='bg-blue-700'>
       <section className="text-gray-600 body-font">
   <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
    
    
     <div className="text-center lg:w-2/3 w-full ">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-blue-500">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
         Get More Done Whitepace
       </h1>
-      <p className="mb-8 leading-relaxed text-blue-500">
+      <p className="mb-8 leading-relaxed text-white">
         Project management software that enable your teams to collabrate, plan,
         analyze and manage everyday tasks
         

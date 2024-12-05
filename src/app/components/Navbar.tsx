@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Nv from '../../../public/Nv.png'
+import Link from 'next/link'
+
 function Navbar() {
   return (
     <div>
@@ -12,10 +14,18 @@ function Navbar() {
       <span className="ml-3 text-xl">Whitepace</span>
     </a>
     <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-      <a className="mr-5 hover:text-gray-900">First Link</a>
-      <a className="mr-5 hover:text-gray-900">Second Link</a>
-      <a className="mr-5 hover:text-gray-900">Third Link</a>
-      <a className="mr-5 hover:text-gray-900">Fourth Link</a>
+      
+
+
+      <Link href={"products"} className="mr-5 hover:text-gray-900">Products</Link>
+      <Link href={"solution"} className="mr-5 hover:text-gray-900">Solution</Link>
+      <Link href={"resources"} className="mr-5 hover:text-gray-900">Resources</Link>
+      <Link href={"pricing"} className="mr-5 hover:text-gray-900">Pricing</Link>
+      <button className='px-3 py-2 bg-yellow-300 rounded-md text-sm mr-3'> Login</button>
+      <button className='px-3 py-2 bg-blue-300 rounded-md text-sm'>Try Whatpace free +</button>
+      
+     
+
     </nav>
     <div className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
       
